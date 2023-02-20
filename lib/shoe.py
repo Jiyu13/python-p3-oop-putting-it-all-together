@@ -24,8 +24,8 @@ class Shoe:
         if type(shoe_size) != int:
             print("size must be an integer")
         else:
-            self._size = shoe_size   # count is a param we pass in
-
+            self._size = shoe_size   
+        
 
     def cobble(self):
         print("Your shoe is as good as new!")
