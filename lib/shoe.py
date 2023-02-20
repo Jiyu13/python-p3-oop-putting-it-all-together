@@ -29,9 +29,8 @@ class Shoe:
 
     def cobble(self):
         print("Your shoe is as good as new!")
+        self.condition = "New"
 
-
-    
 
     color = property(get_color, set_color)
     size = property(get_size, set_size)
