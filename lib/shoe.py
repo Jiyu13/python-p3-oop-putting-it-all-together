@@ -7,6 +7,7 @@ class Shoe:
         self.brand = brand
         self._color = None  # set default value for when get_size() is called, if not error
         self._size = None
+        self.condition = None
 
 
     def get_color(self):
