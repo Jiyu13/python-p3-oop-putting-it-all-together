@@ -27,8 +27,11 @@ class Shoe:
             self._size = shoe_size   # count is a param we pass in
 
 
+    def cobble(self):
+        print("Your shoe is as good as new!")
 
 
+    
 
     color = property(get_color, set_color)
     size = property(get_size, set_size)
